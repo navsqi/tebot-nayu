@@ -1,6 +1,6 @@
-# Nauiva Bot
+# Nayuiva Bot
 
-![Nayuiva Bot](https://github.com/shidqi/tebot-nayu/blob/master/images/preview.gif?raw=true)
+<div style="text-align:center"><img src="https://github.com/shidqi/tebot-nayu/blob/master/images/preview.gif?raw=true" height="300" width="auto" alt="Nayuiva Bot"/></div>
 
 Nayuiva bot (@nayuiva_bot) is Telegram bot used to provide information such as COVID-19 cases & Qur'an.  <br><br>
 https://t.me/nayuiva_bot  <br>
