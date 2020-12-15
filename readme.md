@@ -15,3 +15,7 @@ Example:  `covid19 indonesia`   | `covid19 world`
 **quran [chapter]:[verse]**
 Get spesific verse with requested chapter (Arab & Indonesia translation).  
 Example:  `quran 18:60`  | `quran 31:2`  
+
+**quran tafsir [chapter]:[verse]**
+Get interpretation of verse.  
+Example:  `quran tafsir 18:60`  | `quran tafsir 31:2`  
