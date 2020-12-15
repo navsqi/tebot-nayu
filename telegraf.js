@@ -32,6 +32,10 @@ Example: covid19 indonesia_
 *quran [chapter]:[verse]*
 _Get spesific verse with requested chapter (Arab & Indonesia translation).
 Example: quran 18:60_
+
+*quran tafsir [chapter]:[verse]*
+_Get interpretation of verse.  
+Example:  quran tafsir 18:60 _
 `
   );
 });

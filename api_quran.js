@@ -4,7 +4,7 @@ exports.quran = async (surah, ayat, tafsir = false) => {
   try {
     let reply;
 
-    const { data } = await axios(`https://api.quran.sutanlab.id/surah/${surah}/${ayat}`);
+    const { data } = await axios(`${process.env.API_URL_QURAN}/surah/${surah}/${ayat}`);
 
     if (tafsir) {
       reply = `

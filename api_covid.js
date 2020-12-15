@@ -15,7 +15,7 @@ exports.covidWorld = async (code) => {
     let reply;
 
     if (code === 'world') {
-      const { data } = await axios('https://covid19.mathdro.id/api');
+      const { data } = await axios(`${process.env.API_URL_COVID}`);
 
       reply = `
 *World Summary*
@@ -25,7 +25,7 @@ exports.covidWorld = async (code) => {
   `;
     } else {
       const codeCountry = countryCodeLookup(code);
-      const { data } = await axios(`https://covid19.mathdro.id/api/countries/${codeCountry}`);
+      const { data } = await axios(`${process.env.API_URL_COVID}/countries/${codeCountry}`);
 
       reply = `
 *${codeCountry}*
